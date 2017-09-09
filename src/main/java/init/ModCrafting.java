@@ -20,6 +20,14 @@ public class ModCrafting {
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ardentcenser), ModItems.aetherwisp, ModItems.forbiddenidol);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.aegisofthelegion), ModItems.clotharmor, ModItems.nullmagicmantle);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.locketoftheironsolari), ModItems.nullmagicmantle, ModItems.aegisofthelegion);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.catalystofaeons), ModItems.rubycrystal, ModItems.saphirecrystal);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.tearofthegoddess), ModItems.faeriecharm, ModItems.saphirecrystal);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.archangelsstaff), ModItems.tearofthegoddess, ModItems.needlesslylargerod);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.chaliceofharmony), ModItems.nullmagicmantle, ModItems.faeriecharm, ModItems.faeriecharm);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.flendishcodex), ModItems.amplifyingtome, ModItems.testinggem);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.athenesunholygrail), ModItems.chaliceofharmony, ModItems.flendishcodex);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.lostchapter), ModItems.amplifyingtome, ModItems.saphirecrystal);
+		
 		
 		
 		//Smelting
