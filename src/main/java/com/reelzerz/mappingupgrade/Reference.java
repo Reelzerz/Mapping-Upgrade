@@ -28,7 +28,15 @@ public class Reference {
 		CLOTHARMOR("clotharmor", "ItemClothArmor"),
 		LOCKETOFTHEIRONSOLARI("locketoftheironsolari", "ItemLocketOfTheIronSolari"),
 		RUBYCRYSTAL("rubycrystal", "ItemRubyCrystal"),
-		SAPHIRECRYSTAL("saphirecrystal", "ItemSaphireCrystal");
+		SAPHIRECRYSTAL("saphirecrystal", "ItemSaphireCrystal"),
+		CATALYSTOFAEONS("catalystofaeons", "ItemCatalystOfAeons"),
+		TEAROFTHEGODDESS("tearofthegoddess", "ItemTearOfTheGoddess"),
+		ARCHANGELSSTAFF("archangelsstaff", "ItemArchAngelsStaff"),
+		NEEDLESSLYLARGEROD("needlesslylargerod", "ItemNeedlesslyLargeRod"),
+		CHALICEOFHARMONY("chaliceofharmony", "ItemChaliceOfHarmony"),
+		FLENDISHCODEX("flendishcodex", "ItemFlendishCodex"),
+		ATHENESUNHOLYGRAIL("athenesunholygrail", "ItemAthenesUnholyGrail"),
+		LOSTCHAPTER("lostchapter", "ItemLostChapter");
 		
 		private String unlocalizedName;
 		private String registryName; 
