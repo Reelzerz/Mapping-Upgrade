@@ -12,6 +12,14 @@ item.clotharmor.name=Cloth Armor
 item.locketoftheironsolari.name=Locket Of The Iron Solari
 item.rubycrystal.name=Ruby Crystal
 item.saphirecrystal.name=Saphire Crystal
+item.catalystofaeons.name=Catalyst Of Aeons
+item.tearofthegoddess.name=Tear Of The Goddess
+item.archangelsstaff.name=Arch Angels Staff
+item.needlesslylargerod.name=Needlessly Large Rod
+item.chaliceofharmony.name=Chalice Of Harmony
+item.flendishcodex.name=Flendish Codex
+item.athenesunholygrail.name=Athene's Unholy Grail
+item.lostchapter.name=Lost Chapter
 
 //blocks
 tile.testingcube.name=Testing Cube
