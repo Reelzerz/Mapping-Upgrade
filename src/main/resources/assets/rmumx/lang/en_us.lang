@@ -1,0 +1,36 @@
+//items
+item.testingingot.name=Testing Ingot
+item.testinggem.name=Testing Gem
+item.aegisofthelegion.name=Aegis Of The Legion
+item.aetherwisp.name=Aether Wisp
+item.amplifyingtome.name=Amplifying Tome
+item.ardentcenser.name=Ardent Censer
+item.forbiddenidol.name=Forbidden Idol
+item.faeriecharm.name=Faerie Charm
+item.nullmagicmantle.name=Null-Magic Mantle
+item.clotharmor.name=Cloth Armor
+item.locketoftheironsolari.name=Locket Of The Iron Solari
+item.rubycrystal.name=Ruby Crystal
+item.saphirecrystal.name=Saphire Crystal
+
+//blocks
+tile.testingcube.name=Testing Cube
+
+//Creative Tabs
+itemGroup.rmumxitems=Map Items
+itemGroup.rmumxblocks=Map Blocks
+itemGroup.rmumxarmor=Map Armor
+
+//achievements
+achievement.Testing=Testing
+achievement.Testing.desc=Great!! It works!!
+
+//Armor
+item.Steel_Helmet.name=Steel Helmet
+item.Steel_Chestplate.name=Steel Chestplate
+item.Steel_Leggings.name=Steel Leggings
+item.Steel_Boots.name=Steel Boots
+item.DarkIron_Helmet.name=Dark Iron Helmet
+item.DarkIron_Chestplate.name=Dark Iron Chestplate
+item.DarkIron_Leggings.name=Dark Iron Leggings
+item.DarkIron_Boots.name=Dark Iron Boots

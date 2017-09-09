@@ -1,0 +1,16 @@
+[
+{
+  "modid": "rmumx",
+  "name": "Mapping Upgrade",
+  "description": "Blocks and Items to help improve your map making and playing experience.",
+  "version": "0.0.1",
+  "mcversion": "1.11.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Reelzerz"],
+  "credits": "Forge, lol of course",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
