@@ -20,6 +20,16 @@ item.chaliceofharmony.name=Chalice Of Harmony
 item.flendishcodex.name=Flendish Codex
 item.athenesunholygrail.name=Athene's Unholy Grail
 item.lostchapter.name=Lost Chapter
+item.morellonomicon.name=Morellonomicon
+item.glacialshroud.name=Glacial Shroud
+item.zekesconvergence.name=Zeke's Convergence
+item.blastingwand.name=Blasting Wand
+item.rodofages.name=Rod Of Ages
+item.rabodandeathcap.name=Rabadon's Deathcap
+item.voidstaff.name=Void Staff
+item.bansheesveil.name=Banshee's Veil
+item.rylaiscrystalscepter.name=Rylai's Crystal Scepter
+
 
 //blocks
 tile.testingcube.name=Testing Cube
