@@ -27,7 +27,14 @@ public class ModCrafting {
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.flendishcodex), ModItems.amplifyingtome, ModItems.testinggem);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.athenesunholygrail), ModItems.chaliceofharmony, ModItems.flendishcodex);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.lostchapter), ModItems.amplifyingtome, ModItems.saphirecrystal);
-		
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.morellonomicon), ModItems.amplifyingtome, ModItems.flendishcodex, ModItems.lostchapter);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.glacialshroud), ModItems.saphirecrystal, ModItems.clotharmor);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.zekesconvergence), ModItems.glacialshroud, ModItems.aegisofthelegion);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.rodofages), ModItems.blastingwand, ModItems.catalystofaeons);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.rabodansdeathcap), ModItems.amplifyingtome, ModItems.blastingwand, ModItems.needlesslylargerod);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.voidstaff), ModItems.amplifyingtome, ModItems.blastingwand);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.rylaiscrystalscepter), ModItems.amplifyingtome, ModItems.blastingwand, ModItems.rubycrystal);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.bansheesveil), ModItems.nullmagicmantle, ModItems.blastingwand, ModItems.flendishcodex);
 		
 		
 		//Smelting

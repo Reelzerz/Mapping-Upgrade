@@ -6,6 +6,8 @@ import items.ItemAmplifyingTome;
 import items.ItemArchAngelsStaff;
 import items.ItemArdentCenser;
 import items.ItemAthenesUnholyGrail;
+import items.ItemBansheesVeil;
+import items.ItemBlastingWand;
 import items.ItemCatalystOfAeons;
 import items.ItemChaliceOfHarmony;
 import items.ItemClothArmor;
@@ -13,12 +15,19 @@ import items.ItemFaerieCharm;
 import items.ItemFlendishCodex;
 import items.ItemTestinggem;
 import items.ItemTestingingot;
+import items.ItemVoidStaff;
+import items.ItemZekesConvergence;
 import items.ItemForbiddenIdol;
+import items.ItemGlacialShroud;
 import items.ItemLocketOfTheIronSolari;
 import items.ItemLostChapter;
+import items.ItemMorellonomicon;
 import items.ItemNeedlesslyLargeRod;
 import items.ItemNullMagicMantle;
+import items.ItemRabodansDeathcap;
+import items.ItemRodOfAges;
 import items.ItemRubyCrystal;
+import items.ItemRylaisCrystalScepter;
 import items.ItemSaphireCrystal;
 import items.ItemTearOfTheGoddess;
 import net.minecraft.client.Minecraft;
@@ -49,6 +58,15 @@ public class ModItems {
 	public static Item flendishcodex;
 	public static Item athenesunholygrail;
 	public static Item lostchapter;
+	public static Item morellonomicon;
+	public static Item glacialshroud;
+	public static Item zekesconvergence;
+	public static Item blastingwand;
+	public static Item rodofages;
+	public static Item rabodansdeathcap;
+	public static Item voidstaff;
+	public static Item bansheesveil;
+	public static Item rylaiscrystalscepter;
 	
 
 	public static void init() {
@@ -73,6 +91,15 @@ public class ModItems {
 		flendishcodex = new ItemFlendishCodex();
 		athenesunholygrail = new ItemAthenesUnholyGrail();
 		lostchapter = new ItemLostChapter();
+		morellonomicon = new ItemMorellonomicon();
+		glacialshroud = new ItemGlacialShroud();
+		zekesconvergence = new ItemZekesConvergence();
+		blastingwand = new ItemBlastingWand();
+		rodofages = new ItemRodOfAges();
+		rabodansdeathcap = new ItemRabodansDeathcap();
+		voidstaff = new ItemVoidStaff();
+		bansheesveil = new ItemBansheesVeil();
+		rylaiscrystalscepter = new ItemRylaisCrystalScepter();
 		
 	}
 	
@@ -98,6 +125,16 @@ public class ModItems {
 		GameRegistry.register(flendishcodex);
 		GameRegistry.register(athenesunholygrail);
 		GameRegistry.register(lostchapter);
+		GameRegistry.register(morellonomicon);
+		GameRegistry.register(glacialshroud);
+		GameRegistry.register(zekesconvergence);
+		GameRegistry.register(blastingwand);
+		GameRegistry.register(rodofages);
+		GameRegistry.register(rabodansdeathcap);
+		GameRegistry.register(voidstaff);
+		GameRegistry.register(bansheesveil);
+		GameRegistry.register(rylaiscrystalscepter);
+		
 		
 		
 	}
@@ -124,6 +161,15 @@ public class ModItems {
 		registerRender(flendishcodex);
 		registerRender(athenesunholygrail);
 		registerRender(lostchapter);
+		registerRender(morellonomicon);
+		registerRender(glacialshroud);
+		registerRender(zekesconvergence);
+		registerRender(blastingwand);
+		registerRender(rodofages);
+		registerRender(rabodansdeathcap);
+		registerRender(voidstaff);
+		registerRender(bansheesveil);
+		registerRender(rylaiscrystalscepter);
 		
 	}
 	
