@@ -36,7 +36,17 @@ public class Reference {
 		CHALICEOFHARMONY("chaliceofharmony", "ItemChaliceOfHarmony"),
 		FLENDISHCODEX("flendishcodex", "ItemFlendishCodex"),
 		ATHENESUNHOLYGRAIL("athenesunholygrail", "ItemAthenesUnholyGrail"),
-		LOSTCHAPTER("lostchapter", "ItemLostChapter");
+		LOSTCHAPTER("lostchapter", "ItemLostChapter"),
+		MORELLONOMICON("morellonomicon", "ItemMorellonomicon"),
+		GLACIALSHROUD("glacialshroud", "ItemGlacialShroud"),
+		ZEKESCONVERGENCE("zekesconvergence", "ItemZekesConvergence"),
+		BLASTINGWAND("blastingwand", "ItemBlastingWand"),
+		RODOFAGES("rodofages", "ItemRodOfAges"),
+		RABODANSDEATHCAP("rabodansdeathcap", "ItemRabodansDeathcap"),
+		VOIDSTAFF("voidstaff", "ItemVoidStaff"),
+		BANSHEESVEIL("bansheesveil", "ItemBansheesVeil"),
+		RYLAISCRYSTALSCEPTER("rylaiscrystalscepter", "ItemRylaisCrystalScepter");
+		
 		
 		private String unlocalizedName;
 		private String registryName; 
