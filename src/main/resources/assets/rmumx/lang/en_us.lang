@@ -34,6 +34,16 @@ item.guardianangel.name=Guardian Angel
 item.longsword.name=Long Sword
 item.vampiricscepter.name=Vampiric Scepter
 item.thebloodthirster.name=The BloodThirster
+item.kindlegem.name=Kindle Gem
+item.phage.name=Phage
+item.blackcleaver.name=The Black Cleaver
+item.spectrescowl.name=Spectres Cowl
+item.spiritvisage.name=Spirit Visage
+item.rejuvenationbead.name=Rejuvenation Bead
+item.adaptivehelm.name=Adaptive Helm
+item.sheen.name=Sheen
+item.lichbane.name=Lich Bane
+item.iceborngauntlet.name=Iceborn Gauntlet
 
 
 //blocks

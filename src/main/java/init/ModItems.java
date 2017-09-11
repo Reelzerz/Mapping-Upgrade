@@ -1,5 +1,6 @@
 package init;
 
+import items.ItemAdaptiveHelm;
 import items.ItemAegisOfTheLegion;
 import items.ItemAetherWisp;
 import items.ItemAmplifyingTome;
@@ -8,6 +9,7 @@ import items.ItemArdentCenser;
 import items.ItemAthenesUnholyGrail;
 import items.ItemBFSword;
 import items.ItemBansheesVeil;
+import items.ItemBlackCleaver;
 import items.ItemBlastingWand;
 import items.ItemCatalystOfAeons;
 import items.ItemChaliceOfHarmony;
@@ -22,6 +24,9 @@ import items.ItemVoidStaff;
 import items.ItemZekesConvergence;
 import items.ItemForbiddenIdol;
 import items.ItemGuardianAngel;
+import items.ItemIcebornGaunlet;
+import items.ItemKindleGem;
+import items.ItemLichBane;
 import items.ItemGlacialShroud;
 import items.ItemLocketOfTheIronSolari;
 import items.ItemLongSword;
@@ -29,11 +34,16 @@ import items.ItemLostChapter;
 import items.ItemMorellonomicon;
 import items.ItemNeedlesslyLargeRod;
 import items.ItemNullMagicMantle;
+import items.ItemPhage;
 import items.ItemRabodansDeathcap;
+import items.ItemRejuvenationBead;
 import items.ItemRodOfAges;
 import items.ItemRubyCrystal;
 import items.ItemRylaisCrystalScepter;
 import items.ItemSaphireCrystal;
+import items.ItemSheen;
+import items.ItemSpectresCowl;
+import items.ItemSpiritVisage;
 import items.ItemTearOfTheGoddess;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -77,6 +87,16 @@ public class ModItems {
 	public static Item longsword;
 	public static Item vampiricscepter;
 	public static Item thebloodthirster;
+	public static Item kindlegem;
+	public static Item phage;
+	public static Item blackcleaver;
+	public static Item spectrescowl;
+	public static Item spiritvisage;
+	public static Item rejuvenationbead;
+	public static Item adaptivehelm;
+	public static Item sheen;
+	public static Item lichbane;
+	public static Item iceborngauntlet;
 	
 
 	public static void init() {
@@ -115,6 +135,16 @@ public class ModItems {
 		longsword = new ItemLongSword();
 		vampiricscepter = new ItemVampiricScepter();
 		thebloodthirster = new ItemTheBloodthirster();
+		kindlegem = new ItemKindleGem();
+		phage = new ItemPhage();
+		blackcleaver = new ItemBlackCleaver();
+		spectrescowl = new ItemSpectresCowl();
+		spiritvisage = new ItemSpiritVisage();
+		rejuvenationbead = new ItemRejuvenationBead();
+		adaptivehelm = new ItemAdaptiveHelm();
+		sheen = new ItemSheen();
+		lichbane = new ItemLichBane();
+		iceborngauntlet = new ItemIcebornGaunlet();
 		
 	}
 	
@@ -154,6 +184,16 @@ public class ModItems {
 		GameRegistry.register(longsword);
 		GameRegistry.register(vampiricscepter);
 		GameRegistry.register(thebloodthirster);
+		GameRegistry.register(kindlegem);
+		GameRegistry.register(phage);
+		GameRegistry.register(blackcleaver);
+		GameRegistry.register(spectrescowl);
+		GameRegistry.register(spiritvisage);
+		GameRegistry.register(rejuvenationbead);
+		GameRegistry.register(adaptivehelm);
+		GameRegistry.register(sheen);
+		GameRegistry.register(lichbane);
+		GameRegistry.register(iceborngauntlet);
 		
 	}
 	
@@ -193,6 +233,16 @@ public class ModItems {
 		registerRender(longsword);
 		registerRender(vampiricscepter);
 		registerRender(thebloodthirster);
+		registerRender(kindlegem);
+		registerRender(phage);
+		registerRender(blackcleaver);
+		registerRender(spectrescowl);
+		registerRender(spiritvisage);
+		registerRender(rejuvenationbead);
+		registerRender(adaptivehelm);
+		registerRender(sheen);
+		registerRender(lichbane);
+		registerRender(iceborngauntlet);
 		
 	}
 	

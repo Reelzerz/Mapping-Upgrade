@@ -38,6 +38,15 @@ public class ModCrafting {
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.guardianangel), ModItems.bfsword, ModItems.clotharmor);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.vampiricscepter), ModItems.longsword);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.thebloodthirster), ModItems.bfsword, ModItems.vampiricscepter, ModItems.longsword);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.kindlegem), ModItems.rubycrystal);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.phage), ModItems.rubycrystal, ModItems.longsword);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.blackcleaver), ModItems.phage, ModItems.kindlegem);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.spectrescowl), ModItems.nullmagicmantle, ModItems.rubycrystal);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.spiritvisage), ModItems.spectrescowl, ModItems.kindlegem);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.sheen), ModItems.saphirecrystal);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.lichbane), ModItems.sheen, ModItems.blastingwand, ModItems.aetherwisp);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.iceborngauntlet), ModItems.sheen, ModItems.glacialshroud);
+		
 		
 		//Smelting
 		GameRegistry.addSmelting(ModItems.replacedscepter, new ItemStack(ModItems.testinggem), .02F);

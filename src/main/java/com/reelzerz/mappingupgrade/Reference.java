@@ -50,7 +50,17 @@ public class Reference {
 		GUARDIANANGEL("guardianangel", "ItemGuardianAngel"),
 		LONGSWORD("longsword", "ItemLongSword"),
 		VAMPIRICSCEPTER("vampiricscepter", "ItemVampiricScepter"),
-		THEBLOODTHIRSTER("thebloodthirster", "ItemTheBloodthirster");
+		THEBLOODTHIRSTER("thebloodthirster", "ItemTheBloodthirster"),
+		KINDLEGEM("kindlegem", "ItemKindleGem"),
+		PHAGE("phage", "ItemPhage"),
+		BLACKCLEAVER("blackcleaver", "ItemBlackCleaver"),
+		SPECTRESCOWL("spectrescowl", "ItemSpectresCowl"),
+		SPIRITVISAGE("spiritvisage", "ItemSpiritVisage"),
+		REJUVENATIONBEAD("rejuvenationbead", "ItemRejuvenationBead"),
+		ADAPTIVEHELM("adaptivehelm", "ItemAdaptiveHelm"),
+		SHEEN("sheen", "ItemSheen"),
+		LICHBANE("lichbane", "ItemLichBane"),
+		ICEBORNGAUNTLET("iceborngauntlet", "ItemIcebornGaunlet");
 		
 		
 		private String unlocalizedName;
