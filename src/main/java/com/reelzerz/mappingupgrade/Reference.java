@@ -16,7 +16,7 @@ public class Reference {
 	
 		//Items
 	public static enum MappingUpgradeItems {
-		TESTINGINGOT("testingingot", "ItemTestingingot"),
+		REPLACEDSCEPTER("replacedscepter", "ItemReplacedScepter"),
 		TESTINGGEM("testinggem", "ItemTestinggem"),
 		AEGISOFTHELEGION("aegisofthelegion", "ItemAegisOfTheLegion"),
 		AETHERWISP("aetherwisp", "ItemAetherWisp"),

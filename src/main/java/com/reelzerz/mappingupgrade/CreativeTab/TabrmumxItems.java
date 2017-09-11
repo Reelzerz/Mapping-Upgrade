@@ -14,6 +14,6 @@ public class TabrmumxItems extends CreativeTabs {
 
 	@Override
 	public ItemStack getTabIconItem() {
-		return new ItemStack(ModItems.testingingot);
+		return new ItemStack(ModItems.replacedscepter);
 	}
 }
