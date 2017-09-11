@@ -35,7 +35,9 @@ public class ModCrafting {
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.voidstaff), ModItems.amplifyingtome, ModItems.blastingwand);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.rylaiscrystalscepter), ModItems.amplifyingtome, ModItems.blastingwand, ModItems.rubycrystal);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.bansheesveil), ModItems.nullmagicmantle, ModItems.blastingwand, ModItems.flendishcodex);
-		
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.guardianangel), ModItems.bfsword, ModItems.clotharmor);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.vampiricscepter), ModItems.longsword);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.thebloodthirster), ModItems.bfsword, ModItems.vampiricscepter, ModItems.longsword);
 		
 		//Smelting
 		GameRegistry.addSmelting(ModItems.replacedscepter, new ItemStack(ModItems.testinggem), .02F);

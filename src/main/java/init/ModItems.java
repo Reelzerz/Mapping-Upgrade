@@ -6,6 +6,7 @@ import items.ItemAmplifyingTome;
 import items.ItemArchAngelsStaff;
 import items.ItemArdentCenser;
 import items.ItemAthenesUnholyGrail;
+import items.ItemBFSword;
 import items.ItemBansheesVeil;
 import items.ItemBlastingWand;
 import items.ItemCatalystOfAeons;
@@ -14,12 +15,16 @@ import items.ItemClothArmor;
 import items.ItemFaerieCharm;
 import items.ItemFlendishCodex;
 import items.ItemTestinggem;
+import items.ItemTheBloodthirster;
+import items.ItemVampiricScepter;
 import items.ItemReplacedScepter;
 import items.ItemVoidStaff;
 import items.ItemZekesConvergence;
 import items.ItemForbiddenIdol;
+import items.ItemGuardianAngel;
 import items.ItemGlacialShroud;
 import items.ItemLocketOfTheIronSolari;
+import items.ItemLongSword;
 import items.ItemLostChapter;
 import items.ItemMorellonomicon;
 import items.ItemNeedlesslyLargeRod;
@@ -67,6 +72,11 @@ public class ModItems {
 	public static Item voidstaff;
 	public static Item bansheesveil;
 	public static Item rylaiscrystalscepter;
+	public static Item bfsword;
+	public static Item guardianangel;
+	public static Item longsword;
+	public static Item vampiricscepter;
+	public static Item thebloodthirster;
 	
 
 	public static void init() {
@@ -100,6 +110,11 @@ public class ModItems {
 		voidstaff = new ItemVoidStaff();
 		bansheesveil = new ItemBansheesVeil();
 		rylaiscrystalscepter = new ItemRylaisCrystalScepter();
+		bfsword = new ItemBFSword();
+		guardianangel = new ItemGuardianAngel();
+		longsword = new ItemLongSword();
+		vampiricscepter = new ItemVampiricScepter();
+		thebloodthirster = new ItemTheBloodthirster();
 		
 	}
 	
@@ -134,8 +149,11 @@ public class ModItems {
 		GameRegistry.register(voidstaff);
 		GameRegistry.register(bansheesveil);
 		GameRegistry.register(rylaiscrystalscepter);
-		
-		
+		GameRegistry.register(bfsword);
+		GameRegistry.register(guardianangel);
+		GameRegistry.register(longsword);
+		GameRegistry.register(vampiricscepter);
+		GameRegistry.register(thebloodthirster);
 		
 	}
 	
@@ -170,6 +188,11 @@ public class ModItems {
 		registerRender(voidstaff);
 		registerRender(bansheesveil);
 		registerRender(rylaiscrystalscepter);
+		registerRender(bfsword);
+		registerRender(guardianangel);
+		registerRender(longsword);
+		registerRender(vampiricscepter);
+		registerRender(thebloodthirster);
 		
 	}
 	

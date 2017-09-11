@@ -45,7 +45,12 @@ public class Reference {
 		RABODANSDEATHCAP("rabodansdeathcap", "ItemRabodansDeathcap"),
 		VOIDSTAFF("voidstaff", "ItemVoidStaff"),
 		BANSHEESVEIL("bansheesveil", "ItemBansheesVeil"),
-		RYLAISCRYSTALSCEPTER("rylaiscrystalscepter", "ItemRylaisCrystalScepter");
+		RYLAISCRYSTALSCEPTER("rylaiscrystalscepter", "ItemRylaisCrystalScepter"),
+		ITEMBFSWORD("bfsword", "ItemBFSword"),
+		GUARDIANANGEL("guardianangel", "ItemGuardianAngel"),
+		LONGSWORD("longsword", "ItemLongSword"),
+		VAMPIRICSCEPTER("vampiricscepter", "ItemVampiricScepter"),
+		THEBLOODTHIRSTER("thebloodthirster", "ItemTheBloodthirster");
 		
 		
 		private String unlocalizedName;
