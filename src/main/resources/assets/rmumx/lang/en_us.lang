@@ -1,5 +1,5 @@
 //items
-item.testingingot.name=Testing Ingot
+item.replacedscepter.name=Replaced Scepter
 item.testinggem.name=Testing Gem
 item.aegisofthelegion.name=Aegis Of The Legion
 item.aetherwisp.name=Aether Wisp
@@ -25,7 +25,7 @@ item.glacialshroud.name=Glacial Shroud
 item.zekesconvergence.name=Zeke's Convergence
 item.blastingwand.name=Blasting Wand
 item.rodofages.name=Rod Of Ages
-item.rabodandeathcap.name=Rabadon's Deathcap
+item.rabodansdeathcap.name=Rabadon's Deathcap
 item.voidstaff.name=Void Staff
 item.bansheesveil.name=Banshee's Veil
 item.rylaiscrystalscepter.name=Rylai's Crystal Scepter
@@ -35,7 +35,7 @@ item.rylaiscrystalscepter.name=Rylai's Crystal Scepter
 tile.testingcube.name=Testing Cube
 
 //Creative Tabs
-itemGroup.rmumxitems=Map Items
+itemGroup.rmumxitems=League Of Legends Items
 itemGroup.rmumxblocks=Map Blocks
 itemGroup.rmumxarmor=Map Armor
 
