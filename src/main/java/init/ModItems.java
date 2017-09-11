@@ -14,7 +14,7 @@ import items.ItemClothArmor;
 import items.ItemFaerieCharm;
 import items.ItemFlendishCodex;
 import items.ItemTestinggem;
-import items.ItemTestingingot;
+import items.ItemReplacedScepter;
 import items.ItemVoidStaff;
 import items.ItemZekesConvergence;
 import items.ItemForbiddenIdol;
@@ -37,7 +37,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
 	
-	public static Item testingingot;
+	public static Item replacedscepter;
 	public static Item testinggem;
 	public static Item aegisofthelegion;
 	public static Item aetherwisp;
@@ -70,7 +70,7 @@ public class ModItems {
 	
 
 	public static void init() {
-		testingingot = new ItemTestingingot();
+		replacedscepter = new ItemReplacedScepter();
 		testinggem = new ItemTestinggem();
 		aegisofthelegion = new ItemAegisOfTheLegion();
 		aetherwisp = new ItemAetherWisp();
@@ -104,7 +104,7 @@ public class ModItems {
 	}
 	
 	public static void register() {
-		GameRegistry.register(testingingot);
+		GameRegistry.register(replacedscepter);
 		GameRegistry.register(testinggem);
 		GameRegistry.register(aegisofthelegion);
 		GameRegistry.register(aetherwisp);
@@ -140,7 +140,7 @@ public class ModItems {
 	}
 	
 	public static void registerRenders() {
-		registerRender(testingingot);
+		registerRender(replacedscepter);
 		registerRender(testinggem);
 		registerRender(aegisofthelegion);
 		registerRender(aetherwisp);

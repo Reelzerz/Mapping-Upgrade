@@ -14,7 +14,7 @@ public class ModCrafting {
 	public static void register() {
 		//Crafting
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.testingcube), "TTT","TTT","TTT",'T', ModItems.testinggem);
-		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.testingingot), Items.GOLD_INGOT, Items.DIAMOND, new ItemStack(Blocks.STAINED_GLASS, 1, 5));
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.replacedscepter), Items.GOLD_INGOT, Items.DIAMOND, new ItemStack(Blocks.STAINED_GLASS, 1, 5));
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.aetherwisp), ModItems.amplifyingtome);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.forbiddenidol), ModItems.faeriecharm, ModItems.faeriecharm);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ardentcenser), ModItems.aetherwisp, ModItems.forbiddenidol);
@@ -38,7 +38,7 @@ public class ModCrafting {
 		
 		
 		//Smelting
-		GameRegistry.addSmelting(ModItems.testingingot, new ItemStack(ModItems.testinggem), .02F);
+		GameRegistry.addSmelting(ModItems.replacedscepter, new ItemStack(ModItems.testinggem), .02F);
 		
 		
 		//Armor
