@@ -24,17 +24,17 @@ public class ModCrafting {
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.tearofthegoddess), ModItems.faeriecharm, ModItems.saphirecrystal);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.archangelsstaff), ModItems.tearofthegoddess, ModItems.needlesslylargerod);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.chaliceofharmony), ModItems.nullmagicmantle, ModItems.faeriecharm, ModItems.faeriecharm);
-		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.flendishcodex), ModItems.amplifyingtome, ModItems.testinggem);
-		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.athenesunholygrail), ModItems.chaliceofharmony, ModItems.flendishcodex);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.fiendishcodex), ModItems.amplifyingtome, ModItems.replacedscepter);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.athenesunholygrail), ModItems.chaliceofharmony, ModItems.fiendishcodex);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.lostchapter), ModItems.amplifyingtome, ModItems.saphirecrystal);
-		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.morellonomicon), ModItems.amplifyingtome, ModItems.flendishcodex, ModItems.lostchapter);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.morellonomicon), ModItems.amplifyingtome, ModItems.fiendishcodex, ModItems.lostchapter);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.glacialshroud), ModItems.saphirecrystal, ModItems.clotharmor);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.zekesconvergence), ModItems.glacialshroud, ModItems.aegisofthelegion);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.rodofages), ModItems.blastingwand, ModItems.catalystofaeons);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.rabodansdeathcap), ModItems.amplifyingtome, ModItems.blastingwand, ModItems.needlesslylargerod);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.voidstaff), ModItems.amplifyingtome, ModItems.blastingwand);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.rylaiscrystalscepter), ModItems.amplifyingtome, ModItems.blastingwand, ModItems.rubycrystal);
-		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.bansheesveil), ModItems.nullmagicmantle, ModItems.blastingwand, ModItems.flendishcodex);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.bansheesveil), ModItems.nullmagicmantle, ModItems.blastingwand, ModItems.fiendishcodex);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.guardianangel), ModItems.bfsword, ModItems.clotharmor);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.vampiricscepter), ModItems.longsword);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.thebloodthirster), ModItems.bfsword, ModItems.vampiricscepter, ModItems.longsword);
@@ -46,6 +46,19 @@ public class ModCrafting {
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.sheen), ModItems.saphirecrystal);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.lichbane), ModItems.sheen, ModItems.blastingwand, ModItems.aetherwisp);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.iceborngauntlet), ModItems.sheen, ModItems.glacialshroud);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.stinger), ModItems.dagger, ModItems.dagger);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.recurvebow), ModItems.dagger, ModItems.dagger, ModItems.replacedscepter);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.trinityforce), ModItems.stinger, ModItems.sheen, ModItems.phage);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.nashorstooth), ModItems.stinger, ModItems.fiendishcodex);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.bilgewatercutlass), ModItems.vampiricscepter, ModItems.longsword);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.bladeoftheruinedking), ModItems.recurvebow, ModItems.bilgewatercutlass);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.negatroncloak), ModItems.nullmagicmantle);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.quicksilversash), ModItems.nullmagicmantle, ModItems.replacedscepter);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.witsend), ModItems.negatroncloak, ModItems.dagger, ModItems.recurvebow);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.abyssalmask), ModItems.negatroncloak, ModItems.catalystofaeons);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.guinsoosrageblade), ModItems.pickaxe, ModItems.blastingwand, ModItems.recurvebow);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.hauntingguise), ModItems.rubycrystal, ModItems.amplifyingtome);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.liandrystorment), ModItems.hauntingguise, ModItems.blastingwand);
 		
 		
 		//Smelting

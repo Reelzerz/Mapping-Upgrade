@@ -1,5 +1,8 @@
 package init;
 
+
+
+import items.ItemAbyssalMask;
 import items.ItemAdaptiveHelm;
 import items.ItemAegisOfTheLegion;
 import items.ItemAetherWisp;
@@ -9,33 +12,46 @@ import items.ItemArdentCenser;
 import items.ItemAthenesUnholyGrail;
 import items.ItemBFSword;
 import items.ItemBansheesVeil;
+import items.ItemBilgewatercutlass;
 import items.ItemBlackCleaver;
+import items.ItemBladeOfTheRuinedKing;
 import items.ItemBlastingWand;
 import items.ItemCatalystOfAeons;
 import items.ItemChaliceOfHarmony;
 import items.ItemClothArmor;
+import items.ItemDagger;
 import items.ItemFaerieCharm;
-import items.ItemFlendishCodex;
+import items.ItemFiendishCodex;
 import items.ItemTestinggem;
 import items.ItemTheBloodthirster;
+import items.ItemTrinityForce;
 import items.ItemVampiricScepter;
 import items.ItemReplacedScepter;
 import items.ItemVoidStaff;
+import items.ItemWitsEnd;
 import items.ItemZekesConvergence;
 import items.ItemForbiddenIdol;
 import items.ItemGuardianAngel;
-import items.ItemIcebornGaunlet;
+import items.ItemGuinsoosRageblade;
+import items.ItemHauntingGuise;
+import items.ItemIcebornGauntlet;
 import items.ItemKindleGem;
+import items.ItemLiandrysTorment;
 import items.ItemLichBane;
 import items.ItemGlacialShroud;
 import items.ItemLocketOfTheIronSolari;
 import items.ItemLongSword;
 import items.ItemLostChapter;
 import items.ItemMorellonomicon;
+import items.ItemNashorsTooth;
 import items.ItemNeedlesslyLargeRod;
+import items.ItemNegatronCloak;
 import items.ItemNullMagicMantle;
 import items.ItemPhage;
+import items.ItemPickaxe;
+import items.ItemQuicksilverSash;
 import items.ItemRabodansDeathcap;
+import items.ItemRecurveBow;
 import items.ItemRejuvenationBead;
 import items.ItemRodOfAges;
 import items.ItemRubyCrystal;
@@ -44,6 +60,7 @@ import items.ItemSaphireCrystal;
 import items.ItemSheen;
 import items.ItemSpectresCowl;
 import items.ItemSpiritVisage;
+import items.ItemStinger;
 import items.ItemTearOfTheGoddess;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -70,7 +87,7 @@ public class ModItems {
 	public static Item archangelsstaff;
 	public static Item needlesslylargerod;
 	public static Item chaliceofharmony;
-	public static Item flendishcodex;
+	public static Item fiendishcodex;
 	public static Item athenesunholygrail;
 	public static Item lostchapter;
 	public static Item morellonomicon;
@@ -97,6 +114,21 @@ public class ModItems {
 	public static Item sheen;
 	public static Item lichbane;
 	public static Item iceborngauntlet;
+	public static Item dagger;
+	public static Item stinger;
+	public static Item recurvebow;
+	public static Item trinityforce;
+	public static Item nashorstooth;
+	public static Item bilgewatercutlass;
+	public static Item bladeoftheruinedking;
+	public static Item negatroncloak;
+	public static Item quicksilversash;
+	public static Item witsend;
+	public static Item abyssalmask;
+	public static Item pickaxe;
+	public static Item guinsoosrageblade;
+	public static Item hauntingguise;
+	public static Item liandrystorment;
 	
 
 	public static void init() {
@@ -118,7 +150,7 @@ public class ModItems {
 		archangelsstaff = new ItemArchAngelsStaff();
 		needlesslylargerod = new ItemNeedlesslyLargeRod();
 		chaliceofharmony = new ItemChaliceOfHarmony();
-		flendishcodex = new ItemFlendishCodex();
+		fiendishcodex = new ItemFiendishCodex();
 		athenesunholygrail = new ItemAthenesUnholyGrail();
 		lostchapter = new ItemLostChapter();
 		morellonomicon = new ItemMorellonomicon();
@@ -144,7 +176,22 @@ public class ModItems {
 		adaptivehelm = new ItemAdaptiveHelm();
 		sheen = new ItemSheen();
 		lichbane = new ItemLichBane();
-		iceborngauntlet = new ItemIcebornGaunlet();
+		iceborngauntlet = new ItemIcebornGauntlet();
+		dagger = new ItemDagger();
+		stinger = new ItemStinger();
+		recurvebow = new ItemRecurveBow();
+		trinityforce = new ItemTrinityForce();
+		nashorstooth = new ItemNashorsTooth();
+		bilgewatercutlass = new ItemBilgewatercutlass();
+		bladeoftheruinedking = new ItemBladeOfTheRuinedKing();
+		negatroncloak = new ItemNegatronCloak();
+		quicksilversash = new ItemQuicksilverSash();
+		witsend = new ItemWitsEnd();
+		abyssalmask = new ItemAbyssalMask();
+		pickaxe = new ItemPickaxe();
+		guinsoosrageblade = new ItemGuinsoosRageblade();
+		hauntingguise = new ItemHauntingGuise();
+		liandrystorment = new ItemLiandrysTorment();
 		
 	}
 	
@@ -167,7 +214,7 @@ public class ModItems {
 		GameRegistry.register(archangelsstaff);
 		GameRegistry.register(needlesslylargerod);
 		GameRegistry.register(chaliceofharmony);
-		GameRegistry.register(flendishcodex);
+		GameRegistry.register(fiendishcodex);
 		GameRegistry.register(athenesunholygrail);
 		GameRegistry.register(lostchapter);
 		GameRegistry.register(morellonomicon);
@@ -194,6 +241,21 @@ public class ModItems {
 		GameRegistry.register(sheen);
 		GameRegistry.register(lichbane);
 		GameRegistry.register(iceborngauntlet);
+		GameRegistry.register(dagger);
+		GameRegistry.register(stinger);
+		GameRegistry.register(recurvebow);
+		GameRegistry.register(trinityforce);
+		GameRegistry.register(nashorstooth);
+		GameRegistry.register(bilgewatercutlass);
+		GameRegistry.register(bladeoftheruinedking);
+		GameRegistry.register(negatroncloak);
+		GameRegistry.register(quicksilversash);
+		GameRegistry.register(witsend);
+		GameRegistry.register(abyssalmask);
+		GameRegistry.register(pickaxe);
+		GameRegistry.register(guinsoosrageblade);
+		GameRegistry.register(hauntingguise);
+		GameRegistry.register(liandrystorment);
 		
 	}
 	
@@ -216,7 +278,7 @@ public class ModItems {
 		registerRender(archangelsstaff);
 		registerRender(needlesslylargerod);
 		registerRender(chaliceofharmony);
-		registerRender(flendishcodex);
+		registerRender(fiendishcodex);
 		registerRender(athenesunholygrail);
 		registerRender(lostchapter);
 		registerRender(morellonomicon);
@@ -243,6 +305,21 @@ public class ModItems {
 		registerRender(sheen);
 		registerRender(lichbane);
 		registerRender(iceborngauntlet);
+		registerRender(dagger);
+		registerRender(stinger);
+		registerRender(recurvebow);
+		registerRender(trinityforce);
+		registerRender(nashorstooth);
+		registerRender(bilgewatercutlass);
+		registerRender(bladeoftheruinedking);
+		registerRender(negatroncloak);
+		registerRender(quicksilversash);
+		registerRender(witsend);
+		registerRender(abyssalmask);
+		registerRender(pickaxe);
+		registerRender(guinsoosrageblade);
+		registerRender(hauntingguise);
+		registerRender(liandrystorment);
 		
 	}
 	

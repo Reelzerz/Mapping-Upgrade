@@ -17,7 +17,7 @@ item.tearofthegoddess.name=Tear Of The Goddess
 item.archangelsstaff.name=Arch Angels Staff
 item.needlesslylargerod.name=Needlessly Large Rod
 item.chaliceofharmony.name=Chalice Of Harmony
-item.flendishcodex.name=Flendish Codex
+item.fiendishcodex.name=Fiendish Codex
 item.athenesunholygrail.name=Athene's Unholy Grail
 item.lostchapter.name=Lost Chapter
 item.morellonomicon.name=Morellonomicon
@@ -44,6 +44,21 @@ item.adaptivehelm.name=Adaptive Helm
 item.sheen.name=Sheen
 item.lichbane.name=Lich Bane
 item.iceborngauntlet.name=Iceborn Gauntlet
+item.dagger.name=Dagger
+item.stinger.name=Stinger
+item.recurvebow.name=Recurve Bow
+item.trinityforce.name=Trinity Force
+item.nashorstooth.name=Nashors Tooth
+item.bilgewatercutlass.name=Bilgewater Cutlass
+item.bladeoftheruinedking.name=Blade Of The Ruined King
+item.negatroncloak.name=Negatron Cloak
+item.quicksilversash.name=Quicksilver Sash
+item.witsend.name=Wit's End
+item.abyssalmask.name=Abyssal Mask
+item.pickaxe.name=Pickaxe
+item.guinsoosrageblade.name=Guinsoo's Rageblade
+item.hauntingguise.name=Haunting Guise
+item.liandrystorment.name=Liandry's Torment
 
 
 //blocks

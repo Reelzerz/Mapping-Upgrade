@@ -34,7 +34,7 @@ public class Reference {
 		ARCHANGELSSTAFF("archangelsstaff", "ItemArchAngelsStaff"),
 		NEEDLESSLYLARGEROD("needlesslylargerod", "ItemNeedlesslyLargeRod"),
 		CHALICEOFHARMONY("chaliceofharmony", "ItemChaliceOfHarmony"),
-		FLENDISHCODEX("flendishcodex", "ItemFlendishCodex"),
+		FIENDISHCODEX("fiendishcodex", "ItemFiendishCodex"),
 		ATHENESUNHOLYGRAIL("athenesunholygrail", "ItemAthenesUnholyGrail"),
 		LOSTCHAPTER("lostchapter", "ItemLostChapter"),
 		MORELLONOMICON("morellonomicon", "ItemMorellonomicon"),
@@ -60,7 +60,22 @@ public class Reference {
 		ADAPTIVEHELM("adaptivehelm", "ItemAdaptiveHelm"),
 		SHEEN("sheen", "ItemSheen"),
 		LICHBANE("lichbane", "ItemLichBane"),
-		ICEBORNGAUNTLET("iceborngauntlet", "ItemIcebornGaunlet");
+		ICEBORNGAUNTLET("iceborngauntlet", "ItemIcebornGauntlet"),
+		DAGGER("dagger", "ItemDagger"),
+		STINGER("stinger", "ItemStinger"),
+		RECURVEBOW("recurvebow", "ItemRecurveBow"),
+		TRINITYFORCE("trinityforce", "ItemTrinityForce"),
+		NASHORSTOOTH("nashorstooth", "ItemNashorsTooth"),
+		BILGEWATERCUTLASS("bilgewatercutlass", "ItemBilgewatercutlass"),
+		BLADEOFTHERUINEDKING("bladeoftheruinedking", "ItemBladeOfTheRuinedKing"),
+		NEGATRONCLOAK("negatroncloak", "ItemNegatronCloak"),
+		QUICKSILVERSASH("quicksilversash", "ItemQuicksilverSash"),
+		WITSEND("witsend", "ItemWitsEnd"),
+		ABYSSALMASK("abyssalmask", "ItemAbyssalMask"),
+		PICKAXE("pickaxe", "ItemPickaxe"),
+		GUINSOOSRAGEBLADE("guinsoosrageblade", "ItemGuinsoosRageblade"),
+		HAUNTINGGUISE("hauntingguise", "ItemHauntingGuise"),
+		LIANDRYSTORMENT("liandrystorment", "ItemLiandrysTorment");
 		
 		
 		private String unlocalizedName;
