@@ -11,15 +11,18 @@ import items.ItemArchAngelsStaff;
 import items.ItemArdentCenser;
 import items.ItemAthenesUnholyGrail;
 import items.ItemBFSword;
+import items.ItemBamisCinder;
 import items.ItemBansheesVeil;
 import items.ItemBilgewatercutlass;
 import items.ItemBlackCleaver;
 import items.ItemBladeOfTheRuinedKing;
 import items.ItemBlastingWand;
 import items.ItemCatalystOfAeons;
+import items.ItemChainVest;
 import items.ItemChaliceOfHarmony;
 import items.ItemClothArmor;
 import items.ItemDagger;
+import items.ItemDeadMansPlate;
 import items.ItemFaerieCharm;
 import items.ItemFiendishCodex;
 import items.ItemTestinggem;
@@ -28,14 +31,21 @@ import items.ItemTrinityForce;
 import items.ItemVampiricScepter;
 import items.ItemReplacedScepter;
 import items.ItemVoidStaff;
+import items.ItemWardensMail;
 import items.ItemWitsEnd;
 import items.ItemZekesConvergence;
 import items.ItemForbiddenIdol;
+import items.ItemFrozenHeart;
+import items.ItemFrozenMallet;
+import items.ItemGargoyleStoneplate;
+import items.ItemGiantsBelt;
 import items.ItemGuardianAngel;
 import items.ItemGuinsoosRageblade;
 import items.ItemHauntingGuise;
 import items.ItemIcebornGauntlet;
+import items.ItemJaurimsFist;
 import items.ItemKindleGem;
+import items.ItemKnightsVow;
 import items.ItemLiandrysTorment;
 import items.ItemLichBane;
 import items.ItemGlacialShroud;
@@ -51,6 +61,7 @@ import items.ItemPhage;
 import items.ItemPickaxe;
 import items.ItemQuicksilverSash;
 import items.ItemRabodansDeathcap;
+import items.ItemRanduinsOmen;
 import items.ItemRecurveBow;
 import items.ItemRejuvenationBead;
 import items.ItemRodOfAges;
@@ -61,6 +72,7 @@ import items.ItemSheen;
 import items.ItemSpectresCowl;
 import items.ItemSpiritVisage;
 import items.ItemStinger;
+import items.ItemSunfireCape;
 import items.ItemTearOfTheGoddess;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -129,6 +141,18 @@ public class ModItems {
 	public static Item guinsoosrageblade;
 	public static Item hauntingguise;
 	public static Item liandrystorment;
+	public static Item giantsbelt;
+	public static Item bamiscinder;
+	public static Item frozenmallet;
+	public static Item jaurimsfist;
+	public static Item chainvest;
+	public static Item sunfirecape;
+	public static Item deadmansplate;
+	public static Item knightsvow;
+	public static Item gargoylestoneplate;
+	public static Item wardensmail;
+	public static Item frozenheart;
+	public static Item randuinsomen;
 	
 
 	public static void init() {
@@ -192,6 +216,18 @@ public class ModItems {
 		guinsoosrageblade = new ItemGuinsoosRageblade();
 		hauntingguise = new ItemHauntingGuise();
 		liandrystorment = new ItemLiandrysTorment();
+		giantsbelt = new ItemGiantsBelt();
+		bamiscinder = new ItemBamisCinder();
+		frozenmallet = new ItemFrozenMallet();
+		jaurimsfist = new ItemJaurimsFist();
+		chainvest = new ItemChainVest();
+		sunfirecape = new ItemSunfireCape();
+		deadmansplate = new ItemDeadMansPlate();
+		knightsvow = new ItemKnightsVow();
+		gargoylestoneplate = new ItemGargoyleStoneplate();
+		wardensmail = new ItemWardensMail();
+		frozenheart = new ItemFrozenHeart();
+		randuinsomen = new ItemRanduinsOmen();
 		
 	}
 	
@@ -256,6 +292,18 @@ public class ModItems {
 		GameRegistry.register(guinsoosrageblade);
 		GameRegistry.register(hauntingguise);
 		GameRegistry.register(liandrystorment);
+		GameRegistry.register(giantsbelt);
+		GameRegistry.register(bamiscinder);
+		GameRegistry.register(frozenmallet);
+		GameRegistry.register(jaurimsfist);
+		GameRegistry.register(chainvest);
+		GameRegistry.register(sunfirecape);
+		GameRegistry.register(deadmansplate);
+		GameRegistry.register(knightsvow);
+		GameRegistry.register(gargoylestoneplate);
+		GameRegistry.register(wardensmail);
+		GameRegistry.register(frozenheart);
+		GameRegistry.register(randuinsomen);
 		
 	}
 	
@@ -320,6 +368,18 @@ public class ModItems {
 		registerRender(guinsoosrageblade);
 		registerRender(hauntingguise);
 		registerRender(liandrystorment);
+		registerRender(giantsbelt);
+		registerRender(bamiscinder);
+		registerRender(frozenmallet);
+		registerRender(jaurimsfist);
+		registerRender(chainvest);
+		registerRender(sunfirecape);
+		registerRender(deadmansplate);
+		registerRender(knightsvow);
+		registerRender(gargoylestoneplate);
+		registerRender(wardensmail);
+		registerRender(frozenheart);
+		registerRender(randuinsomen);
 		
 	}
 	

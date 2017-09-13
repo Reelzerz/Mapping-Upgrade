@@ -59,6 +59,18 @@ public class ModCrafting {
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.guinsoosrageblade), ModItems.pickaxe, ModItems.blastingwand, ModItems.recurvebow);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.hauntingguise), ModItems.rubycrystal, ModItems.amplifyingtome);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.liandrystorment), ModItems.hauntingguise, ModItems.blastingwand);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.giantsbelt), ModItems.rubycrystal, ModItems.replacedscepter);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.bamiscinder), ModItems.rubycrystal, ModItems.rubycrystal, ModItems.replacedscepter);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.frozenmallet), ModItems.rubycrystal, ModItems.pickaxe, ModItems.jaurimsfist);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.jaurimsfist), ModItems.rubycrystal, ModItems.longsword);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.sunfirecape), ModItems.rubycrystal, ModItems.chainvest, ModItems.bamiscinder);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.chainvest), ModItems.clotharmor);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.deadmansplate), ModItems.chainvest, ModItems.giantsbelt);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.knightsvow), ModItems.chainvest, ModItems.kindlegem);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.gargoylestoneplate), ModItems.chainvest, ModItems.negatroncloak);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.wardensmail), ModItems.clotharmor, ModItems.clotharmor);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.frozenheart), ModItems.wardensmail, ModItems.glacialshroud);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.randuinsomen), ModItems.wardensmail, ModItems.giantsbelt);
 		
 		
 		//Smelting

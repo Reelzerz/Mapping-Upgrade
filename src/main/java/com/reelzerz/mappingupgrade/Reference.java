@@ -75,7 +75,19 @@ public class Reference {
 		PICKAXE("pickaxe", "ItemPickaxe"),
 		GUINSOOSRAGEBLADE("guinsoosrageblade", "ItemGuinsoosRageblade"),
 		HAUNTINGGUISE("hauntingguise", "ItemHauntingGuise"),
-		LIANDRYSTORMENT("liandrystorment", "ItemLiandrysTorment");
+		LIANDRYSTORMENT("liandrystorment", "ItemLiandrysTorment"),
+		GIANTSBELT("giantsbelt", "ItemGiantsBelt"),
+		BAMISCINDER("bamiscinder", "ItemBamisCinder"),
+		FROZENMALLET("frozenmallet", "ItemFrozenMallet"),
+		JAURIMSFIST("jaurimsfist", "ItemJaurimsFist"),
+		CHAINVEST("chainvest", "ItemChainVest"),
+		SUNFIRECAPE("sunfirecape", "ItemSunfireCape"),
+		DEADMANSPLATE("deadmansplate", "ItemDeadMansPlate"),
+		KNIGHTSVOW("knightsvow", "ItemKnightsVow"),
+		GARGOYLESTONEPLATE("gargoylestoneplate", "ItemGargoyleStoneplate"),
+		WARDENSMAIL("wardensmail", "ItemWardensMail"),
+		FROZENHEART("frozenheart", "ItemFrozenHeart"),
+		RANDUINSOMEN("randuinsomen", "ItemRanduinsOmen");
 		
 		
 		private String unlocalizedName;
